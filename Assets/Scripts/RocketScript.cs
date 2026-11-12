@@ -11,9 +11,9 @@ public class RocketScript : MonoBehaviour
     public KeyCode right;
     public KeyCode up;
 
-    public float moveSpeed = 5f;
+    public float moveSpeed = 20f;
     public float rotationSpeed = 50f;
-    public int fuelLeft = 50;
+    public int fuelLeft = 500;
 
     public Rigidbody2D myRigid;
     public ParticleSystem myPart;
